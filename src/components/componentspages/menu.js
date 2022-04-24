@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import './stylecomponents/menu.css';
 
 export default function Menu(){
     return(
@@ -12,7 +13,7 @@ export default function Menu(){
                     <li>
                         <Link to='/services'>Serviços</Link>
                     </li>
-                    <li>
+                    <li className="t">
                         <Link to='/'>T</Link>
                     </li>
                     <li>

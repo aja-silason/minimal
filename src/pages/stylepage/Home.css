@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+}
+.conteinerHome{
+    height: 100vh;
+    background-image: url(../../assets/everest.jpg);
+    background-size: cover;
+}
