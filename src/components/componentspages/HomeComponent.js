@@ -4,7 +4,7 @@ import './stylecomponents/HomeComponent.css';
 export default function HomeComponent(){
     return(
         <React.Fragment>
-            <div className="contApresentação">
+            <div className="contApresentacao">
                 <div className="apresentacao">
                     <span>Nós Somos</span>
                     <h1>MINIMAL</h1>

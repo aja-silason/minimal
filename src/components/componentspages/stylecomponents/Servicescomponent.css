@@ -1,0 +1,45 @@
+.conteinerServices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #000;
+    font-size: 14pt;
+}
+.Services{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.barra{
+    border: 4px dashed;
+    width: 50px;
+    text-align: center;
+    margin: 10px;
+}
+.cima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 980px;
+    text-align: center;
+    margin: 50px;
+}
+.baixo{
+    margin: 30px 0;
+}
+.baixo .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baixo .cards div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+}
