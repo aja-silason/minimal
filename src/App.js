@@ -1,9 +1,11 @@
 import React from 'react';
+import Rotas from './components/Rotas';
+
 
 function App() {
   return (
     <React.Fragment>
-      <h1>Olá minimals</h1>
+      <Rotas/>
     </React.Fragment>
   );
 }
