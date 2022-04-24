@@ -1,0 +1,74 @@
+.conteinerAboutC{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    height: 85.8vh;
+}
+.conteinerAboutC div.dirC, div.esqC{
+    margin: 5px;
+    height: 80%;
+    color: #fff;
+}
+.conteinerAboutC .borderC{
+    border-left: 2px solid #fff;
+    height: 400px;
+}
+.dirC{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+}
+.dirC h1, .dirC p{
+    margin: 10px;
+    text-align: justify;
+}
+.esqC{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.esqC input[type=text]{
+    width: 90%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    color: #ccc;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.esqC textarea{
+    width: 90%;
+    height: 90px;
+    margin: 5px;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    color: #ccc;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.esqC input[type=submit]{
+    width: 91.5%;
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-bottom: 1px solid;
+    color: #000;
+    font-size: 12pt;
+    font-weight: 600;
+}
+.esqC input[type=submit]:hover{
+    background-color: rgb(223, 223, 223);
+}
