@@ -1,8 +1,10 @@
 *{
     margin: 0;
 }
-.conteinerHome{
+.conteinerhome{
     height: 100vh;
     background-image: url(../../assets/everest.jpg);
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
