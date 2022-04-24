@@ -9,9 +9,17 @@ export default function Menu(){
                     <li>
                         <Link to='/'>Home</Link>
                     </li>
-
                     <li>
-                        <Link to='/about'>About</Link>
+                        <Link to='/services'>Serviços</Link>
+                    </li>
+                    <li>
+                        <Link to='/'>T</Link>
+                    </li>
+                    <li>
+                        <Link to='/about'>Sobre nós</Link>
+                    </li>
+                    <li>
+                        <Link to='/contact_us'>Contacte-nos</Link>
                     </li>
                 </ul>
             </nav>
