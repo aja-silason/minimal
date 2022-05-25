@@ -11,7 +11,7 @@ export default function Cantact_Uscomponent(){
                 </div>
                 <div className="borderC"></div>
                 <div className="esqC">
-                    <form method="POST">
+                    <form method="POST" action="mailto:ananiasjaimeaugusto@gmail.com">
                         <input type="text" placeholder="O seu nome"/>
                         
                         <textarea placeholder="A sua mensagem"></textarea>
